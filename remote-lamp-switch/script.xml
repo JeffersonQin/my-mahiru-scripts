@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Identifier>top.gyrojeff.iot.lampserver</Identifier>
+  <Name>远程开灯服务器</Name>
+  <Description>Remote Lamp Switch Server</Description>
+  <ProcessName>*.\venv\Scripts\python.exe</ProcessName>
+  <DefaultArguments>
+    <ScriptArgument>
+      <Name>File Name</Name>
+      <Value>module/server/server.py</Value>
+    </ScriptArgument>
+  </DefaultArguments>
+  <RedirectStreams>true</RedirectStreams>
+  <UseShellExecute>false</UseShellExecute>
+  <CreateNoWindow>false</CreateNoWindow>
+  <StartWhenAppStarts>true</StartWhenAppStarts>
+  <WorkingDirectory>./remote-lamp-switch</WorkingDirectory>
+</Script>
