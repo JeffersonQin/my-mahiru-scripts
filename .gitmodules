@@ -1,0 +1,3 @@
+[submodule "remote-lamp-switch/module"]
+	path = remote-lamp-switch/module
+	url = https://github.com/JeffersonQin/remote-lamp-switch
